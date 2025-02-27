@@ -3,7 +3,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 class ChatService {
   final model = GenerativeModel(
     model: 'gemini-pro',
-    apiKey: 'AIzaSyAffiqNfNZvzB6cITn5rXaPx8QbihskN5U',
+    apiKey: 'your api key here',
   );
 
   Future<String> sendMessage(String message) async {
