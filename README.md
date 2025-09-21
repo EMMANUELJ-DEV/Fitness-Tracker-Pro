@@ -1,16 +1,51 @@
-# fitness
+# 🏋️‍♂️ Fitness Tracker Pro
 
-A new Flutter project.
+A cross-platform **fitness tracking app** built with **Flutter** to help you monitor workouts, set fitness goals, and track progress over time.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📋 Log workouts (cardio, strength, custom exercises)  
+- 🔄 Edit or delete logged activities  
+- 🎯 Set and track fitness goals  
+- 📊 View workout history with progress charts  
+- 🔔 Notifications & reminders *(if implemented)*  
+- 📱 Cross-platform: Android, iOS, Web, Desktop  
+- 💾 Offline usage with local data storage  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+> *(Add screenshots here: home page, workout log, stats screen, etc.)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter (Dart)** – cross-platform development  
+- **State Management:** Provider / Riverpod / Bloc *(specify if used)*  
+- **Storage:** SQLite / Hive / Shared Preferences *(specify if used)*  
+- **Optional Services:** Firebase / REST API *(if connected)*  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed  
+- Android Studio or VS Code with Flutter & Dart plugins  
+- Emulator/Simulator or physical device  
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/EMMANUELJ-DEV/Fitness-Tracker-Pro.git
+
+# Navigate into project folder
+cd Fitness-Tracker-Pro
+
+# Install dependencies
+flutter pub get
